@@ -7,7 +7,7 @@ export class CreateTags1631584571631 implements MigrationInterface {
             new Table({
                 name: "tags", 
                 columns: [{
-                   name: "id",
+                   name: "uid",
                    type: "uuid",
                    isPrimary: true 
                 },
